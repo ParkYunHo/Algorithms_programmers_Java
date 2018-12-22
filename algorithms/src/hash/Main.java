@@ -40,12 +40,18 @@ public class Main {
 		
 		
 		
-		// 2. 전화번호 목록
-		String[] phone_book = {"12", "123", "1235", "567" ,"88"};
-//		String[] phone_book = {"119", "97674223", "1195524421"};
+		/*// 2. 전화번호 목록
+//		String[] phone_book = {"12", "123", "1235", "567" ,"88"};
+		String[] phone_book = {"119", "97674223", "1195524421"};
 //		String[] phone_book = {"12", "34", "56"};
+//		String[] phone_book = {"12"};
 		
-		System.out.println(PhoneBook.phoneBook_method(phone_book));
+		System.out.println(PhoneBook.phoneBook_method(phone_book));*/
+		
+		
+		// 3. 위장
+//		String[][] clothes = {{"yellow_hat", "headgear"}, {"blue_sunglasses", "eyewear"}, {"green_turban", "headgear"}};
+		String[][] clothes = {{"crow_mask", "face"}, {"blue_sunglasses", "face"}, {"smoky_makeup", "face"}};
+		System.out.println(Spy.spy_method(clothes));
 	}
-
 }
